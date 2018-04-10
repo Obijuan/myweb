@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="wheel-right" src="wheel-right.obj"></a-asset-item>
+        <a-asset-item id="ground" src="ground.obj"></a-asset-item>
+        <a-asset-item id="wheel-left" src="wheel-left.obj"></a-asset-item>
+
+      </a-assets>
+
+      <!-- Using the asset management system. -->
+      <a-obj-model src="#wheel-right" color="#FF0" scale="0.1 0.1 0.1" rotation="-90 0 0"></a-obj-model>
+
+      <a-obj-model src="#wheel-left" color="#FF0" scale="0.1 0.1 0.1" rotation="-90 0 0" ></a-obj-model>
+
+      <a-obj-model src="#ground" scale="0.1 0.1 0.1" rotation="-90 0 0" color="grey"></a-obj-model>
+
+
+      <a-sky color="black"></a-sky>
+    </a-scene>
+  </body>
+</html>
