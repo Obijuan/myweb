@@ -1,1 +1,2 @@
-https://github.com/Obijuan/myweb/blob/master/a-frame/tests/01-hello-world/index.html
+
+https://obijuan.github.io/myweb/a-frame/tests/01-hello-world/index.html
