@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="crate-obj" src="myobj.obj"></a-asset-item>
+        <a-asset-item id="crate-mtl" src="myobj.mtl"></a-asset-item>
+      </a-assets>
+
+      <!-- Using the asset management system. -->
+      <a-obj-model src="#crate-obj" color="#FF0" scale="0.1 0.1 0.1" position="0 2 -1"></a-obj-model>
+      <a-sky color="grey"></a-sky>
+    </a-scene>
+  </body>
+</html>
